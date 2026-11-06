@@ -7,6 +7,7 @@ import { Clock } from 'lucide-react';
 
 interface CheckoutHeroProps {
   currentStep: number;
+  timer?: string;
 }
 
 export default function CheckoutHero({ currentStep }: CheckoutHeroProps) {
